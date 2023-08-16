@@ -1,10 +1,11 @@
 
  .principal {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     text-align: center;
     height: 79.8vh;
     align-items: center;
+    margin-right: 30px;
  
  
   }
@@ -14,7 +15,7 @@
     display: flex;
     border-radius: 15px;
     height: 80%;
-    width: 960px;
+    width: 860px;
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -83,22 +84,15 @@
     text-transform: uppercase;
     font-size: 10px;
     padding: 10px 50px;
-    border: 1px solid white;
+    border: 1px solid #dbdfe0;
     font-weight: bold;
     margin-top: 20px;
     width: 150px;
     align-self: center;
   }
  
+ 
 
-  .botao4:hover {
-    background-color: white;
-    color: #184270;
-    transition: 1s;
-    border: 1px solid #184270;
- 
-  }
- 
   .underline {
     margin-top: 5px;
     font-size: 14px;
@@ -107,17 +101,11 @@
  
   .botao2:hover {
     background-color: white;
-    color: #184270;
+    color: #35122E;
     transition: 1s;
-    border: 1px solid #184270;
+    border: 1px solid #35122E;
   }
  
-  .botao3:hover {
-    background-color: white;
-    color: #184270;
-    transition: 1s;
-    border: 1px solid #184270;
-  }
  
   .primeiro-container {
     display: flex;
