@@ -1,15 +1,17 @@
 
  .principal {
     display: flex;
-    justify-content: right;
+    justify-content: left;
     text-align: center;
     height: 79.8vh;
     align-items: center;
-    margin-right: 30px;
+    margin-left: 30px;
+    
+    
  
  
   }
- 
+
   .container {
     background-color: #dbdfe0;
     display: flex;
@@ -19,9 +21,8 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
- 
+    width: 50%;
   }
- 
   .container::before {
     content: "";
     position: absolute;
@@ -30,36 +31,27 @@
     height: 100%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
- 
- 
   }
- 
   .title {
- 
-    font-size: 32px;
+    font-size: 35px;
     font-weight: bold;
   }
- 
   .descricao {
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 300;
     /* color: white; */
     line-height: 30px;
   }
- 
   .acesso {
     display: flex;
     list-style-type: none;
- 
   }
- 
   .formulario {
     display: flex;
     flex-direction: column;
     width: 70%;
     /* color: red; */
   }
- 
   .formulario input {
     height: 45px;
     width: 100%;
@@ -68,14 +60,9 @@
     margin-top: 5px;
     border-radius: 10px;
   }
- 
   input{
    font-size: 20px;
   }
- 
- 
-
- 
   button {
     /* color: white; */
     border-radius: 15px;
@@ -90,48 +77,193 @@
     width: 150px;
     align-self: center;
   }
- 
- 
-
   .underline {
     margin-top: 5px;
     font-size: 14px;
   }
- 
- 
   .botao2:hover {
     background-color: white;
     color: #35122E;
     transition: 1s;
     border: 1px solid #35122E;
   }
- 
- 
   .primeiro-container {
     display: flex;
   }
- 
- 
   .segundo-container {
     display: none;
     height: 65%;
     width: 960px;
     position: absolute;
     display: flex;
- 
   }
- 
   .primeira-coluna {
     text-align: center;
     width: 40%;
     z-index: 10;
   }
- 
   .segunda-coluna {
     width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+/* ---------------------------------------------------------------------------- */
+
+
+  .secundaria{
+    justify-content: center;
+    border-radius: 15px;
+    height: 70vh;
+    width: 50%;
+    text-align: center;
+  }
+
+  .secundaria .secundaria-espaco{
+
+    max-width: 80%;
+    margin: 0 auto;
+    
+
+  }
+ 
+  .secundaria h1{
+    font-size: 80px;
+    text-align: center;
+    justify-content: center;
+    
+  }
+
+  
+  .secundaria p{
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  
+  
+  
+  
+  .tercearia{
+    display: inline;
+  }
+  
+  
+  
+  
+ 
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+  
+ 
+  
+ 
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+ 
+  
+ 
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+ 
+ 
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+
+  
+  
+  
+  
+ 
+ 
+  
+  
+  
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+  
+  
+  
+ 
+  
+ 
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
  
  
