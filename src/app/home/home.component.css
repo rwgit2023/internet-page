@@ -34,11 +34,11 @@
     border-bottom-left-radius: 15px;
   }
   .title {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
   }
   .descricao {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 300;
     /* color: white; */
     line-height: 30px;
@@ -119,6 +119,7 @@
     width: 50%;
     text-align: center;
     display: flex;
+    min-height: 100vh;
   }
 
   .secundaria .secundaria-espaco{
@@ -130,7 +131,7 @@
   }
  
   .secundaria h1{
-    font-size: 80px;
+    font-size: 70px;
     /* text-align: center; */
     /* justify-content: center; */
     
@@ -139,21 +140,42 @@
   
   .secundaria p{
     text-align: center;
-    font-size: 22px;
+    font-size: 16px;
+    font-weight: 300;
+    /* color: white; */
+    line-height: 30px;
   }
   
   
   
   
-  
+  /* ---------------------------------------------------------------------------- */
   .tercearia{
     display: flex;
-    
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
     
   }
   
-  
-  
+  .tercearia-espaco{
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+  .tercearia h1{
+    font-size: 80px;
+    
+  }
+    
+  .tercearia p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+   
+   
+  }
+    
   
  
   
