@@ -140,7 +140,7 @@
   
   .secundaria p{
     text-align: center;
-    font-size: 16px;
+    font-size: 22px;
     font-weight: 300;
     /* color: white; */
     line-height: 30px;
@@ -154,7 +154,7 @@
     display: flex;
     width: 50%;
     text-align: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     
   }
   
