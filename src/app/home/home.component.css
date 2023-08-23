@@ -115,16 +115,23 @@ button {
 /* ---------------------------------------------------------------------------- */
 
 
-.secundaria {
-  width: 40%;
-  height: 60%;
-  text-align: center;
-  ali
+.principal-two {
   display: flex;
-  height: 100vh;
-  background-color: red;
-  position: relative;
+  height: 50vh;
+  align-items: center;
+  min-height: 50vh;
+}
+
+
+.secundaria {
+  width: 50%;
+  height: 80%;
+  text-align: center;
+  display: flex;
+  max-height: 90vh;
   
+  position: relative;
+
 }
 
 .secundaria .secundaria-espaco {
@@ -156,15 +163,12 @@ button {
 
 /* ---------------------------------------------------------------------------- */
 .tercearia {
-  display: flex;
-  justify-content: left;
   text-align: center;
-  height: 50vh;
   width: 50%;
   justify-content: space-between;
   align-items: center;
   margin-left: 30px;
-  min-height: 70vh;
+  min-height: 100vh;
   position: relative;
 
 }
@@ -191,16 +195,13 @@ button {
 
 /* ---------------------------------------------------------------------------- */
 .quartearia {
-
   display: flex;
-  justify-content: left;
-  text-align: center;
-  height: 50vh;
+
   width: 50%;
   justify-content: space-between;
   align-items: center;
   margin-left: 30px;
-  min-height: 70vh;
+  min-height: 100vh;
   position: relative;
 
 }
@@ -213,6 +214,7 @@ button {
 
 .quartearia h1 {
   font-size: 60px;
+  text-align: center;
 
 }
 
