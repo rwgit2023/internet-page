@@ -1,9 +1,11 @@
 .principal {
   display: flex;
-  height: 80vh;
+  height: 50vh;
   align-items: center;
-  margin-left: 30px;
+  margin-left: 2%;
   min-height: 100vh;
+  margin-right: 2%;
+  /* margin-bottom: 50px; */
 }
 
 .container {
@@ -89,13 +91,10 @@ button {
   border: 2px solid #35122E;
 }
 
-.primeiro-container {
-  display: flex;
-}
 
 .segundo-container {
   width: 50%;
-  position: absolute;
+  /* position: absolute; */
   display: flex;
 }
 
@@ -112,28 +111,17 @@ button {
   align-items: center;
 }
 
-/* ---------------------------------------------------------------------------- */
-
-
-.principal-two {
-  display: flex;
-  height: 50vh;
-  align-items: center;
-  min-height: 100vh;
-}
-
-
 .secundaria {
   width: 50%;
-  height: 80%;
+  height: 100%;
   text-align: center;
   display: flex;
   /* max-height: 90vh; */
 }
 
 .secundaria .secundaria-espaco {
-  width: 90%;
-  margin: 0 auto;
+  width: 95%;
+  margin-left: 50px;
 }
 
 .secundaria h1 {
@@ -153,13 +141,23 @@ button {
 
 
 /* ---------------------------------------------------------------------------- */
+
+
+.principal-two {
+  display: flex;
+  height: 50vh;
+  align-items: center;
+
+
+  /* margin-top: 100vh; */
+}
+
 .tercearia {
   text-align: center;
   width: 50%;
   align-items: center;
-  min-height: 100vh;
   position: relative;
-  margin-left: 30px;
+  margin: -150px 0 0 0px;
 
 }
 
@@ -188,8 +186,7 @@ button {
   width: 50%;
   justify-content: space-between;
   align-items: center;
-  margin-left: 30px;
-  min-height: 100vh;
+  margin: 250px 0 0 0;
   position: relative;
 
 }
