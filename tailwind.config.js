@@ -15,7 +15,7 @@ module.exports = {
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
       'azul': '#184270',
-      'roxo': '#35122E',
+      'roxo': '#01080E',
        
     },
   },
