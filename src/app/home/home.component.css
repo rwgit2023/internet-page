@@ -147,9 +147,6 @@ button {
   display: flex;
   height: 50vh;
   align-items: center;
-
-
-  /* margin-top: 100vh; */
 }
 
 .tercearia {
@@ -215,14 +212,17 @@ button {
 
 /* ---------------------------------------------------------------------------- */
 
+.principal-three {
+  align-items: center;
+  margin-top: 150px;
+  
+}
+
 .quintearia {
   width: 50%;
-  justify-content: space-between;
   align-items: center;
-  margin: 250px 0 0 0;
-  position: relative;
-  background: linear-gradient(#FEFEFE,#888888);
-
+  position: relative;  
+  
 }
 
 .titulo-quintearia {
@@ -231,21 +231,17 @@ button {
 }
 
 .mapa{
-  padding: 3em 0;
-  /* background: linear-gradient(#FEFEFE,#888888); */
-
-
-  /* background: radial-gradient(white 75% ,grey 15% ,black 10%); */
-  /* background: linear-gradient(45deg ,white 75% ,grey 15% ,black 10%); */
-}
-
-.mapa p{
-  margin: 0 0 3em 0;
+  padding: 2em 0;
+  background: linear-gradient(#FEFEFE,#888888);
+  border: solid 2px white;
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 80%;
   text-align: center;
-  color: white;
-  font-size: 22px;
+  align-items: center;
 
 }
+
 
 .mapa-conteudo{
   width: 940px;
